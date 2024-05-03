@@ -54,8 +54,8 @@ public class Baseclass {
 	}
 	@BeforeMethod
 	public void bmconfig() throws Throwable {
-		String UN=pu1.rfeadDataFromPropertyFile("uname");
-		String PWD=pu1.rfeadDataFromPropertyFile("pswd");
+		String UN=pu1.rfeadDataFromPropertyFile("un");
+		String PWD=pu1.rfeadDataFromPropertyFile("pwd");
 		Loginpage lp=new Loginpage(driver);
 		lp.LogintoApp(UN, PWD);
 		wu.getscreenshot(driver, "Homepage");

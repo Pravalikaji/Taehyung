@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\prava\AppData\Local\Temp\testng-eclipse--349605505\testng-customsuite.xml</span>
+                    <span>C:\Users\prava\AppData\Local\Temp\testng-eclipse--301226861\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,7 +104,7 @@
                     <div class="method-list-content failed suite-Default_suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Actualtc.VerifyTitle" class="method navigator-link" hash-for-method="verifyTitlke">verifyTitlke</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="Actualtc.VerifyTitle" class="method navigator-link" hash-for-method="verifyTitle">verifyTitle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Default_suite -->
@@ -127,16 +127,16 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyTitlke">
-                  </a> <!-- verifyTitlke -->
-                  <span class="method-name">verifyTitlke</span>
-                  <div class="stack-trace">java.lang.AssertionError: both are not matching expected [Administrator - Home - vtiger CRM 5 - Commercial Open Source CRM] but found [Swag Labs]
+                  <a name="verifyTitle">
+                  </a> <!-- verifyTitle -->
+                  <span class="method-name">verifyTitle</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [both are not matching] but found [false]
 	at org.testng.Assert.fail(Assert.java:99)
 	at org.testng.Assert.failNotEquals(Assert.java:1037)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
 	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:629)
-	at Actualtc.VerifyTitle.verifyTitlke(VerifyTitle.java:15)
+	at org.testng.Assert.assertEquals(Assert.java:617)
+	at Actualtc.VerifyTitle.verifyTitle(VerifyTitle.java:15)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
@@ -172,7 +172,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\prava\AppData\Local\Temp\testng-eclipse--349605505\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\prava\AppData\Local\Temp\testng-eclipse--301226861\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -223,14 +223,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyTitlke')
+data.setCell(0, 1, 'verifyTitle')
 data.setCell(0, 2, 'Actualtc.VerifyTitle')
-data.setCell(0, 3, 25);
+data.setCell(0, 3, 26);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 25 ms</span>
+              <span class="suite-total-time">Total running time: 26 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -263,31 +263,29 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">bcconfig</span>
-                <span class="method-start">38 ms</span>
+                <span class="method-start">34 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">bmconfig</span>
-                <span class="method-start">6286 ms</span>
+                <span class="method-start">4303 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">verifyTitlke</span>
-                <span class="method-start">10104 ms</span>
+                <span class="method-name">verifyTitle</span>
+                <span class="method-start">7860 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">amconfig</span>
-                <span class="method-start">10137 ms</span>
+                <span class="method-start">7892 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">20416 ms</span>
+                <span class="method-start">11780 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-suite after">
                 <span class="method-name">asconfig</span>
-                <span class="method-start">20504 ms</span>
+                <span class="method-start">13322 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

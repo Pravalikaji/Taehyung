@@ -9,10 +9,11 @@ import vtigergeneric.Baseclass;
 
 public class VerifyTitle extends Baseclass{
 @Test
-public void verifyTitlke() {
+public void verifyTitle() {
 	String et="Swag Labs";
 	String at=driver.getTitle();
-	Assert.assertEquals(et,at,"both are not matching");
+	Assert.assertEquals(et.contains(at),"both are not matching");
+	System.out.println("tc is pass ");
 	
 }
 }

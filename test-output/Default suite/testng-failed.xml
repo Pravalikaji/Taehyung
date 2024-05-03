@@ -5,12 +5,12 @@
     <classes>
       <class name="Actualtc.VerifyTitle">
         <methods>
-          <include name="verifyTitlke"/>
           <include name="bmconfig"/>
           <include name="amconfig"/>
           <include name="bsconfig"/>
           <include name="asconfig"/>
           <include name="teardown"/>
+          <include name="verifyTitle"/>
           <include name="bcconfig"/>
         </methods>
       </class> <!-- Actualtc.VerifyTitle -->
